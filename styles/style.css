@@ -204,6 +204,10 @@ footer {
   border: none;
 }
 
+.footer-search-bar button:hover {
+  background-color: #99383b;
+}
+
 .footer-search-bar input {
   border: none;
   text-indent: 10px;
