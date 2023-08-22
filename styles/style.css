@@ -76,6 +76,11 @@ section {
   justify-content: center;
   font-size: 30px;
   font-weight: 700;
+  transition: 0.1s linear;
+}
+
+section:hover {
+  transform: scale(1.03);
 }
 
 section:nth-child(1) {
