@@ -8,27 +8,32 @@
   </head>
   <body>
     <header>
-      <h1>
-        <a href="/">
-          <img src="/" alt="Home" />
-        </a>
-      </h1>
-      <nav>
-        <h2>Nav</h2>
-        <ul>
-          <li><button>1_button</button></li>
-          <li><button>2_buuton</button></li>
-          <li><button>3_button</button></li>
-          <li><button>4_button</button></li>
-        </ul>
-      </nav>
-      <div class="menu-bar">
-        <p>삼선</p>
+      <div class="header-inner">
+        <h1 class="a11y-hidden">Deck 홈페이지</h1>
+        <div class="header-logo">
+          <a href="/">
+            <img src="./assets/Logo.png" alt="Deck 로고" />
+          </a>
+        </div>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="/">TECHNOLOGY</a></li>
+            <li><a href="/">IDEAS</a></li>
+            <li><a href="/">LEADERSHIP</a></li>
+            <li><a href="/">VIDEO</a></li>
+            <li><a href="/">NEWS</a></li>
+            <li><a href="/">FINANCE</a></li>
+            <li><a href="/">ENETERTAINMENT</a></li>
+          </ul>
+        </nav>
+        <div class="header-menu-button">
+          <img src="./assets/Header-menu.png" alt="메뉴보기" />
+        </div>
       </div>
     </header>
     <main>
-      <h2>Main</h2>
-      <div class="main-container">
+      <h2 class="a11y-hidden">Main</h2>
+      <div class="main-inner">
         <section>
           <h3>Section 1</h3>
         </section>
@@ -63,8 +68,8 @@
             ><img src="./assets/Logo-footer.png" alt="Deck이라 적혀있는 로고"
           /></a>
           <small class="footer-copyright">
-            <p>© 2018 Deck</p>
-            <p>Component Based UI Kit</p>
+            <span>© 2018 Deck</span>
+            <span>Component Based UI Kit</span>
           </small>
         </div>
         <div class="footer-menu-list">
