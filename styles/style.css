@@ -25,6 +25,10 @@ a {
   color: rgb(200, 200, 200);
 }
 
+a:hover {
+  color: black;
+}
+
 .header-inner {
   width: 100%;
   gap: 60px;
@@ -46,13 +50,8 @@ a {
   gap: 40px;
 }
 
-.menu-bar {
-  background-color: orangered;
-  width: 10%;
-}
-
-button {
-  background-color: darkgreen;
+img:hover {
+  transform: scale(1.05);
 }
 
 main {
@@ -169,6 +168,10 @@ footer {
 
 .footer-menu-list li a {
   color: white;
+}
+
+.footer-menu-list li a:hover {
+  transform: scale(1.05);
 }
 
 .footer-inner-right {
