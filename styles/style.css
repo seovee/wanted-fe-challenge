@@ -92,7 +92,7 @@ section:nth-child(1) {
   background-image: url(../assets/section_image_1.png);
 }
 section:nth-child(2) {
-  background-image: url(/assets/section_image_2.png);
+  background-image: url(../assets/section_image_2.png);
 }
 
 section:nth-child(3) {
